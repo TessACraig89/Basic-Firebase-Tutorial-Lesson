@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Simple Firebase Tutorial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  </head>
+  <body>
+  <div style="margin-top: 300px;"align="center"class="mainDiv">
+    <h2 id="fireHeading">Firebase Demo</h2>
+    <input id="mainText"placeholder="Enter Some Text"/>
+    <button onclick="submitClick()"id="submitBtn"type="button" name="button">Submit</button>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCmw78jW2DMgU8HoHx8sbc5blUIyrq1f9A",
+    authDomain: "fire-base-demo-62933.firebaseapp.com",
+    databaseURL: "https://fire-base-demo-62933.firebaseio.com",
+    projectId: "fire-base-demo-62933",
+    storageBucket: "",
+    messagingSenderId: "152762889019"
+  };
+  firebase.initializeApp(config);
+</script>
+<script type="text/javascript" src="assets/js/app.js">
+
+</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
